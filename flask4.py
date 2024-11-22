@@ -10,7 +10,7 @@ import time
 app = Flask(__name__)
 
 # Configure Google Generative AI
-genai.configure(api_key="AIzaSyD61OB-gICJFTPh98DfpFYXVVOe76dk4yk")
+genai.configure(api_key="****")     # starred for privacy reasons
 
 # Function to record audio
 def record_audio(filename, duration=13, samplerate=16000):
